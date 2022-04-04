@@ -13,8 +13,6 @@ class Solution {
         ListNode node = head; 
         ListNode node1 = new ListNode(); 
         ListNode node2 = new ListNode(); 
-        ListNode node3 = new ListNode(); 
-        ListNode node4 = new ListNode(); 
         
         int size = 0;
         while(node!=null)
