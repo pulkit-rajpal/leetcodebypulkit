@@ -1,0 +1,1 @@
+![](https://s3.ap-south-1.amazonaws.com/afteracademy-server-uploads/print-all-subsets-of-a-given-set-recursion-tree-9bbcd4be963c54c8.jpg)
