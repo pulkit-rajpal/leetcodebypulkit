@@ -23,11 +23,9 @@ class Solution {
                 while(map.size() < j - i + 1){  
                 char s2 = s.charAt(i);
                 // Imnportant is that if the char has ) frequnecy we have to remove that as well 
-                if(map.get(s2)==0) {map.remove(s2);}
                 map.put(s2, map.getOrDefault(s2, 0) - 1);
                 i++;
                 if(map.get(s2)==0) {map.remove(s2);}
-
                 }
             }
             j++;
