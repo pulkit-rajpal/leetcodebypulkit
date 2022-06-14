@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.HashMap;
 
-
+ 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         if (nums.length==2) return new int[]{0,1};
@@ -10,7 +10,7 @@ class Solution {
 
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-            /* */
+            /* Can we optimise this further*/
             int t = target - nums[i];
             if (map.containsKey(t)) {
                 return new int[]{i, map.get(t)};
